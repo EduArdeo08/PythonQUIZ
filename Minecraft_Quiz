@@ -1,0 +1,32 @@
+print("Hello! Welcome to my Minecraft quiz!")
+score = 0
+
+playing = input("Do you want to play y/n?  ")
+
+if playing != "y": 
+    quit()
+  
+print("Okay! Let's play! :D ")
+
+answer = input("How many slots does a Craftingtable has?  ")
+if answer == "9":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("How many obsidian it req to make a portal?  ")
+if answer == "10":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("An Diamond_Axe req 3 diamonds y/n?  ")
+if answer == "y":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+
+print("You got "+ str(score) +" questions right!  ") 
